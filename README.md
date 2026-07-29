@@ -40,31 +40,31 @@ This project analyzes customer data collected from an FMCG (Fast-Moving Consumer
 
 
 
-\## 🎯 Objectives
+## 🎯 Objectives
 
 
 
-\- Perform exploratory data analysis (EDA).
+- Perform exploratory data analysis (EDA).
 
-\- Preprocess customer data for clustering.
+- Preprocess customer data for clustering.
 
-\- Apply multiple clustering algorithms.
+- Apply multiple clustering algorithms.
 
-\- Determine the optimal number of clusters.
+- Determine the optimal number of clusters.
 
-\- Compare clustering performance using evaluation metrics.
+- Compare clustering performance using evaluation metrics.
 
-\- Visualize customer segments.
+- Visualize customer segments.
 
-\- Generate business-oriented insights.
-
-
-
-\---
+- Generate business-oriented insights.
 
 
 
-\## 📊 Dataset
+---
+
+
+
+## 📊 Dataset
 
 
 
@@ -76,15 +76,15 @@ To protect customer privacy:
 
 
 
-\- Personal information has been anonymized.
+- Personal information has been anonymized.
 
-\- Missing values have already been handled.
+- Missing values have already been handled.
 
-\- Basic preprocessing was performed before publishing the dataset.
+- Basic preprocessing was performed before publishing the dataset.
 
 
 
-\### Dataset Features
+### Dataset Features
 
 
 
@@ -110,11 +110,11 @@ To protect customer privacy:
 
 
 
-\---
+---
 
 
 
-\## 📈 Exploratory Data Analysis
+## 📈 Exploratory Data Analysis
 
 
 
@@ -126,23 +126,23 @@ Main analyses included:
 
 
 
-\- Distribution of categorical variables
+- Distribution of categorical variables
 
-\- Distribution of numerical variables
+- Distribution of numerical variables
 
-\- Correlation analysis
+- Correlation analysis
 
-\- Outlier inspection
+- Outlier inspection
 
-\- Feature scaling preparation
-
-
-
-\---
+- Feature scaling preparation
 
 
 
-\# 🛠️ Technologies Used
+---
+
+
+
+# 🛠️ Technologies Used
 
 
 
@@ -162,53 +162,53 @@ Main analyses included:
 
 
 
-\---
+---
 
 
 
-\## 🤖 Machine Learning Techniques
+## 🤖 Machine Learning Techniques
 
 
 
-\### Data Preprocessing
+### Data Preprocessing
 
 
 
-\- StandardScaler
+- StandardScaler
 
-\- Principal Component Analysis (PCA)
-
-
-
-\### Clustering Algorithms
+- Principal Component Analysis (PCA)
 
 
 
-\- K-Means
-
-\- Agglomerative Hierarchical Clustering
-
-\- DBSCAN
+### Clustering Algorithms
 
 
 
-\### Evaluation Metrics
+- K-Means
+
+- Agglomerative Hierarchical Clustering
+
+- DBSCAN
 
 
 
-\- Silhouette Score
-
-\- Calinski-Harabasz Index
-
-\- Davies-Bouldin Index
+### Evaluation Metrics
 
 
 
-\---
+- Silhouette Score
+
+- Calinski-Harabasz Index
+
+- Davies-Bouldin Index
 
 
 
-\# 📂 Project Structure
+---
+
+
+
+# 📂 Project Structure
 
 
 
@@ -254,7 +254,7 @@ Customer-Segmentation/
 
 
 
-\## 1. Clone the Repository
+## 1. Clone the Repository
 
 
 
@@ -267,702 +267,702 @@ cd customer-segmentation
 ```
 
 
-
-\---
-
-
-
-\## 2. Create a Virtual Environment (Optional)
-
-
-
-\### Windows
-
-
-
-```bash
-
-python -m venv venv
-
-venv\\Scripts\\activate
-
-```
-
-
-
-\### Linux / macOS
-
-
-
-```bash
-
-python3 -m venv venv
-
-source venv/bin/activate
-
-```
-
-
-
-\---
-
-
-
-\## 3. Install Dependencies
-
-
-
-```bash
-
-pip install -r requirements.txt
-
-```
-
-
-
-\---
-
-
-
-\## 4. Launch Jupyter Notebook
-
-
-
-```bash
-
-jupyter notebook
-
-```
-
-
-
-Open the notebook:
-
-
-
-```
-
-Customer\_Segmentation.ipynb
-
-```
-
-
-
-\---
-
-
-
-\# 🚀 Project Workflow
-
-
-
-The project follows a structured machine learning workflow:
-
-
-
-\### 1. Data Exploration
-
-
-
-\- Dataset overview
-
-\- Feature analysis
-
-\- Statistical summary
-
-\- Missing value verification
-
-\- Correlation analysis
-
-
-
-\---
-
-
-
-\### 2. Data Preprocessing
-
-
-
-\- Remove unnecessary columns
-
-\- Standardize numerical features
-
-\- Prepare data for clustering
-
-
-
-\---
-
-
-
-\### 3. Clustering
-
-
-
-Three clustering algorithms were implemented and compared:
-
-
-
-\### K-Means
-
-
-
-\- Elbow Method
-
-\- Silhouette Score
-
-\- Cluster interpretation
-
-
-
-\### Agglomerative Hierarchical Clustering
-
-
-
-\- Dendrogram analysis
-
-\- Cluster comparison
-
-
-
-\### DBSCAN
-
-
-
-\- Density-based clustering
-
-\- Noise point detection
-
-
-
-\---
-
-
-
-\### 4. Model Evaluation
-
-
-
-Different clustering metrics were used to compare model performance.
-
-
-
-| Metric | Purpose |
-
-|---------|----------|
-
-| Silhouette Score | Measures cluster cohesion and separation |
-
-| Calinski-Harabasz Index | Evaluates cluster compactness |
-
-| Davies-Bouldin Index | Measures cluster similarity |
-
-
-
-\---
-
-
-
-\# 📊 Results
-
-
-
-After comparing multiple clustering algorithms, the following observations were obtained:
-
-
-
-\- K-Means achieved the strongest overall clustering performance.
-
-\- Hierarchical Clustering produced comparable segmentation results.
-
-\- DBSCAN successfully detected noise points but generated fewer meaningful customer groups.
-
-
-
-The optimal number of clusters was selected using:
-
-
-
-\- Elbow Method
-
-\- Silhouette Score
-
-
-
-\---
-
-
-
-\# 📈 Visualizations
-
-
-
-The notebook includes several visualizations that support the analysis.
-
-
-
-\### Exploratory Analysis
-
-
-
-\- Distribution of categorical features
-
-\- Distribution of numerical features
-
-\- Correlation heatmap
-
-
-
-\### Clustering Analysis
-
-
-
-\- Elbow Method
-
-\- Silhouette Score comparison
-
-\- PCA cluster visualization
-
-\- Cluster comparison
-
-
-
-Example figures:
-
-
-
-```
-
-images/
-
-│
-
-├── correlation\_heatmap.png
-
-├── elbow\_method.png
-
-├── silhouette\_scores.png
-
-└── cluster\_visualization.png
-
-```
-
-
-
-\---
-
-
-
-\# 💼 Business Insights
-
-
-
-The discovered customer segments can support several business decisions, including:
-
-
-
-\- Personalized marketing campaigns
-
-\- Customer targeting
-
-\- Loyalty program optimization
-
-\- Product recommendation strategies
-
-\- Customer retention initiatives
-
-\- Data-driven decision making
-
-
-
-These insights enable businesses to better understand customer behavior and allocate marketing resources more effectively.
-
-
-
-\---
-
-
-
-\# 🔮 Future Improvements
-
-
-
-Possible extensions of this project include:
-
-
-
-\- Applying Gaussian Mixture Models (GMM)
-
-\- Feature engineering
-
-\- Hyperparameter optimization
-
-\- Interactive dashboards using Streamlit
-
-\- Deployment as a web application
-
-\- Real-time customer segmentation
-
-# ⚙️ Installation
-
-
-
-\## 1. Clone the Repository
-
-
-
-```bash
-
-git clone https://github.com/your-username/customer-segmentation.git
-
-cd customer-segmentation
-
-```
-
-
-
-\---
-
-
-
-\## 2. Create a Virtual Environment (Optional)
-
-
-
-\### Windows
-
-
-
-```bash
-
-python -m venv venv
-
-venv\\Scripts\\activate
-
-```
-
-
-
-\### Linux / macOS
-
-
-
-```bash
-
-python3 -m venv venv
-
-source venv/bin/activate
-
-```
-
-
-
-\---
-
-
-
-\## 3. Install Dependencies
-
-
-
-```bash
-
-pip install -r requirements.txt
-
-```
-
-
-
-\---
-
-
-
-\## 4. Launch Jupyter Notebook
-
-
-
-```bash
-
-jupyter notebook
-
-```
-
-
-
-Open the notebook:
-
-
-
-```
-
-Customer\_Segmentation.ipynb
-
-```
-
-
-
-\---
-
-
-
-\# 🚀 Project Workflow
-
-
-
-The project follows a structured machine learning workflow:
-
-
-
-\### 1. Data Exploration
-
-
-
-\- Dataset overview
-
-\- Feature analysis
-
-\- Statistical summary
-
-\- Missing value verification
-
-\- Correlation analysis
-
-
-
-\---
-
-
-
-\### 2. Data Preprocessing
-
-
-
-\- Remove unnecessary columns
-
-\- Standardize numerical features
-
-\- Prepare data for clustering
-
-
-
-\---
-
-
-
-\### 3. Clustering
-
-
-
-Three clustering algorithms were implemented and compared:
-
-
-
-\### K-Means
-
-
-
-\- Elbow Method
-
-\- Silhouette Score
-
-\- Cluster interpretation
-
-
-
-\### Agglomerative Hierarchical Clustering
-
-
-
-\- Dendrogram analysis
-
-\- Cluster comparison
-
-
-
-\### DBSCAN
-
-
-
-\- Density-based clustering
-
-\- Noise point detection
-
-
-
-\---
-
-
-
-\### 4. Model Evaluation
-
-
-
-Different clustering metrics were used to compare model performance.
-
-
-
-| Metric | Purpose |
-
-|---------|----------|
-
-| Silhouette Score | Measures cluster cohesion and separation |
-
-| Calinski-Harabasz Index | Evaluates cluster compactness |
-
-| Davies-Bouldin Index | Measures cluster similarity |
-
-
-
-\---
-
-
-
-\# 📊 Results
-
-
-
-After comparing multiple clustering algorithms, the following observations were obtained:
-
-
-
-\- K-Means achieved the strongest overall clustering performance.
-
-\- Hierarchical Clustering produced comparable segmentation results.
-
-\- DBSCAN successfully detected noise points but generated fewer meaningful customer groups.
-
-
-
-The optimal number of clusters was selected using:
-
-
-
-\- Elbow Method
-
-\- Silhouette Score
-
-
-
-\---
-
-
-
-\# 📈 Visualizations
-
-
-
-The notebook includes several visualizations that support the analysis.
-
-
-
-\### Exploratory Analysis
-
-
-
-\- Distribution of categorical features
-
-\- Distribution of numerical features
-
-\- Correlation heatmap
-
-
-
-\### Clustering Analysis
-
-
-
-\- Elbow Method
-
-\- Silhouette Score comparison
-
-\- PCA cluster visualization
-
-\- Cluster comparison
-
-
-
-Example figures:
-
-
-
-```
-
-images/
-
-│
-
-├── correlation\_heatmap.png
-
-├── elbow\_method.png
-
-├── silhouette\_scores.png
-
-└── cluster\_visualization.png
-
-```
-
-
-
-\---
-
-
-
-\# 💼 Business Insights
-
-
-
-The discovered customer segments can support several business decisions, including:
-
-
-
-\- Personalized marketing campaigns
-
-\- Customer targeting
-
-\- Loyalty program optimization
-
-\- Product recommendation strategies
-
-\- Customer retention initiatives
-
-\- Data-driven decision making
-
-
-
-These insights enable businesses to better understand customer behavior and allocate marketing resources more effectively.
-
-
-
-\---
-
-
-
-\# 🔮 Future Improvements
-
-
-
-Possible extensions of this project include:
-
-
-
-\- Applying Gaussian Mixture Models (GMM)
-
-\- Feature engineering
-
-\- Hyperparameter optimization
-
-\- Interactive dashboards using Streamlit
-
-\- Deployment as a web application
-
-\- Real-time customer segmentation
 
 ---
 
 
 
-\# 📦 Requirements
+## 2. Create a Virtual Environment (Optional)
+
+
+
+### Windows
+
+
+
+```bash
+
+python -m venv venv
+
+venv\\Scripts\\activate
+
+```
+
+
+
+\### Linux / macOS
+
+
+
+```bash
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+```
+
+
+
+---
+
+
+
+## 3. Install Dependencies
+
+
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+
+
+---
+
+
+
+## 4. Launch Jupyter Notebook
+
+
+
+```bash
+
+jupyter notebook
+
+```
+
+
+
+Open the notebook:
+
+
+
+```
+
+Customer\_Segmentation.ipynb
+
+```
+
+
+
+---
+
+
+
+# 🚀 Project Workflow
+
+
+
+The project follows a structured machine learning workflow:
+
+
+
+### 1. Data Exploration
+
+
+
+- Dataset overview
+
+- Feature analysis
+
+- Statistical summary
+
+- Missing value verification
+
+- Correlation analysis
+
+
+
+---
+
+
+
+### 2. Data Preprocessing
+
+
+
+- Remove unnecessary columns
+
+- Standardize numerical features
+
+- Prepare data for clustering
+
+
+
+---
+
+
+
+### 3. Clustering
+
+
+
+Three clustering algorithms were implemented and compared:
+
+
+
+### K-Means
+
+
+
+- Elbow Method
+
+- Silhouette Score
+
+- Cluster interpretation
+
+
+
+### Agglomerative Hierarchical Clustering
+
+
+
+- Dendrogram analysis
+
+- Cluster comparison
+
+
+
+### DBSCAN
+
+
+
+- Density-based clustering
+
+- Noise point detection
+
+
+
+---
+
+
+
+### 4. Model Evaluation
+
+
+
+Different clustering metrics were used to compare model performance.
+
+
+
+| Metric | Purpose |
+
+|---------|----------|
+
+| Silhouette Score | Measures cluster cohesion and separation |
+
+| Calinski-Harabasz Index | Evaluates cluster compactness |
+
+| Davies-Bouldin Index | Measures cluster similarity |
+
+
+
+---
+
+
+
+# 📊 Results
+
+
+
+After comparing multiple clustering algorithms, the following observations were obtained:
+
+
+
+- K-Means achieved the strongest overall clustering performance.
+
+- Hierarchical Clustering produced comparable segmentation results.
+
+- DBSCAN successfully detected noise points but generated fewer meaningful customer groups.
+
+
+
+The optimal number of clusters was selected using:
+
+
+
+- Elbow Method
+
+- Silhouette Score
+
+
+
+---
+
+
+
+# 📈 Visualizations
+
+
+
+The notebook includes several visualizations that support the analysis.
+
+
+
+### Exploratory Analysis
+
+
+
+- Distribution of categorical features
+
+- Distribution of numerical features
+
+- Correlation heatmap
+
+
+
+### Clustering Analysis
+
+
+
+- Elbow Method
+
+- Silhouette Score comparison
+
+- PCA cluster visualization
+
+- Cluster comparison
+
+
+
+Example figures:
+
+
+
+```
+
+images/
+
+│
+
+├── correlation\_heatmap.png
+
+├── elbow\_method.png
+
+├── silhouette\_scores.png
+
+└── cluster\_visualization.png
+
+```
+
+
+
+---
+
+
+
+# 💼 Business Insights
+
+
+
+The discovered customer segments can support several business decisions, including:
+
+
+
+- Personalized marketing campaigns
+
+- Customer targeting
+
+- Loyalty program optimization
+
+- Product recommendation strategies
+
+- Customer retention initiatives
+
+- Data-driven decision making
+
+
+
+These insights enable businesses to better understand customer behavior and allocate marketing resources more effectively.
+
+
+
+---
+
+
+
+# 🔮 Future Improvements
+
+
+
+Possible extensions of this project include:
+
+
+
+- Applying Gaussian Mixture Models (GMM)
+
+- Feature engineering
+
+- Hyperparameter optimization
+
+- Interactive dashboards using Streamlit
+
+- Deployment as a web application
+
+- Real-time customer segmentation
+
+# ⚙️ Installation
+
+
+
+## 1. Clone the Repository
+
+
+
+```bash
+
+git clone https://github.com/your-username/customer-segmentation.git
+
+cd customer-segmentation
+
+```
+
+
+
+---
+
+
+
+## 2. Create a Virtual Environment (Optional)
+
+
+
+### Windows
+
+
+
+```bash
+
+python -m venv venv
+
+venv\\Scripts\\activate
+
+```
+
+
+
+### Linux / macOS
+
+
+
+```bash
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+```
+
+
+
+---
+
+
+
+## 3. Install Dependencies
+
+
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+
+
+---
+
+
+
+## 4. Launch Jupyter Notebook
+
+
+
+```bash
+
+jupyter notebook
+
+```
+
+
+
+Open the notebook:
+
+
+
+```
+
+Customer\_Segmentation.ipynb
+
+```
+
+
+
+---
+
+
+
+# 🚀 Project Workflow
+
+
+
+The project follows a structured machine learning workflow:
+
+
+
+### 1. Data Exploration
+
+
+
+- Dataset overview
+
+- Feature analysis
+
+- Statistical summary
+
+- Missing value verification
+
+- Correlation analysis
+
+
+
+---
+
+
+
+### 2. Data Preprocessing
+
+
+
+- Remove unnecessary columns
+
+- Standardize numerical features
+
+- Prepare data for clustering
+
+
+
+---
+
+
+
+### 3. Clustering
+
+
+
+Three clustering algorithms were implemented and compared:
+
+
+
+### K-Means
+
+
+
+- Elbow Method
+
+- Silhouette Score
+
+- Cluster interpretation
+
+
+
+### Agglomerative Hierarchical Clustering
+
+
+
+- Dendrogram analysis
+
+- Cluster comparison
+
+
+
+### DBSCAN
+
+
+
+- Density-based clustering
+
+- Noise point detection
+
+
+
+---
+
+
+
+### 4. Model Evaluation
+
+
+
+Different clustering metrics were used to compare model performance.
+
+
+
+| Metric | Purpose |
+
+|---------|----------|
+
+| Silhouette Score | Measures cluster cohesion and separation |
+
+| Calinski-Harabasz Index | Evaluates cluster compactness |
+
+| Davies-Bouldin Index | Measures cluster similarity |
+
+
+
+---
+
+
+
+# 📊 Results
+
+
+
+After comparing multiple clustering algorithms, the following observations were obtained:
+
+
+
+- K-Means achieved the strongest overall clustering performance.
+
+- Hierarchical Clustering produced comparable segmentation results.
+
+- DBSCAN successfully detected noise points but generated fewer meaningful customer groups.
+
+
+
+The optimal number of clusters was selected using:
+
+
+
+- Elbow Method
+
+- Silhouette Score
+
+
+
+---
+
+
+
+# 📈 Visualizations
+
+
+
+The notebook includes several visualizations that support the analysis.
+
+
+
+### Exploratory Analysis
+
+
+
+- Distribution of categorical features
+
+- Distribution of numerical features
+
+- Correlation heatmap
+
+
+
+### Clustering Analysis
+
+
+
+- Elbow Method
+
+- Silhouette Score comparison
+
+- PCA cluster visualization
+
+- Cluster comparison
+
+
+
+Example figures:
+
+
+
+```
+
+images/
+
+│
+
+├── correlation\_heatmap.png
+
+├── elbow\_method.png
+
+├── silhouette\_scores.png
+
+└── cluster\_visualization.png
+
+```
+
+
+
+---
+
+
+
+# 💼 Business Insights
+
+
+
+The discovered customer segments can support several business decisions, including:
+
+
+
+- Personalized marketing campaigns
+
+- Customer targeting
+
+- Loyalty program optimization
+
+- Product recommendation strategies
+
+- Customer retention initiatives
+
+- Data-driven decision making
+
+
+
+These insights enable businesses to better understand customer behavior and allocate marketing resources more effectively.
+
+
+
+---
+
+
+
+# 🔮 Future Improvements
+
+
+
+Possible extensions of this project include:
+
+
+
+- Applying Gaussian Mixture Models (GMM)
+
+- Feature engineering
+
+- Hyperparameter optimization
+
+- Interactive dashboards using Streamlit
+
+- Deployment as a web application
+
+- Real-time customer segmentation
+
+---
+
+
+
+# 📦 Requirements
 
 
 
@@ -970,19 +970,19 @@ The project was developed using Python and the following core libraries:
 
 
 
-\- Python 3.10+
+- Python 3.10+
 
-\- Pandas
+- Pandas
 
-\- NumPy
+- NumPy
 
-\- Matplotlib
+- Matplotlib
 
-\- Seaborn
+- Seaborn
 
-\- Scikit-learn
+- Scikit-learn
 
-\- Jupyter Notebook
+- Jupyter Notebook
 
 
 
@@ -998,11 +998,11 @@ pip install -r requirements.txt
 
 
 
-\---
+---
 
 
 
-\# 🤝 Contributing
+# 🤝 Contributing
 
 
 
@@ -1014,9 +1014,9 @@ If you would like to improve this project:
 
 
 
-1\. Fork the repository.
+1. Fork the repository.
 
-2\. Create a new branch.
+2. Create a new branch.
 
 
 
@@ -1028,7 +1028,7 @@ git checkout -b feature/your-feature
 
 
 
-3\. Commit your changes.
+3. Commit your changes.
 
 
 
@@ -1040,7 +1040,7 @@ git commit -m "Add your feature"
 
 
 
-4\. Push to your branch.
+4. Push to your branch.
 
 
 
@@ -1052,7 +1052,7 @@ git push origin feature/your-feature
 
 
 
-5\. Open a Pull Request.
+5. Open a Pull Request.
 
 
 
@@ -1060,11 +1060,11 @@ Please ensure your code is well documented and follows Python best practices.
 
 
 
-\---
+---
 
 
 
-\# 📄 License
+# 📄 License
 
 
 
@@ -1072,23 +1072,23 @@ This project is distributed under the \*\*MIT License\*\*.
 
 
 
-See the \*\*LICENSE\*\* file for more information.
+See the **LICENSE** file for more information.
 
 
 
-\---
+---
 
 
 
-\# 👩‍💻 Author
+# 👩‍💻 Author
 
 
 
-\*\*Aya Mohamed\*\*
+**Aya Mohamed**
 
 
 
-Computer Science Student | AI \& Data Science
+Computer Science Student | AI & Data Science
 
 
 
@@ -1096,37 +1096,37 @@ Interested in:
 
 
 
-\- Machine Learning
+- Machine Learning
 
-\- Data Science
+- Data Science
 
-\- Data Engineering
+- Data Engineering
 
-\- Artificial Intelligence
-
-
-
-\---
+- Artificial Intelligence
 
 
 
-\# 📬 Contact
+---
 
 
 
-\- \*\*LinkedIn:\*\* \*https://www.linkedin.com/in/aya-abd-elazim-94a256347/\*
-
-\- \*\*GitHub:\*\* \*https://github.com/Aya-Mohamed945\*
-
-\- \*\*Email:\*\* \*aya.320240137@ejust.edu.eg\*
+# 📬 Contact
 
 
 
-\---
+- **LinkedIn:** *https://www.linkedin.com/in/aya-abd-elazim-94a256347/*
+
+- **GitHub:** *https://github.com/Aya-Mohamed945*
+
+- **Email:** *aya.320240137@ejust.edu.eg*
 
 
 
-\# 🙏 Acknowledgments
+---
+
+
+
+# 🙏 Acknowledgments
 
 
 
@@ -1134,15 +1134,15 @@ Special thanks to the open-source community and the developers behind:
 
 
 
-\- Scikit-learn
+- Scikit-learn
 
-\- Pandas
+- Pandas
 
-\- NumPy
+- NumPy
 
-\- Matplotlib
+- Matplotlib
 
-\- Seaborn
+- Seaborn
 
 
 
@@ -1150,11 +1150,11 @@ for providing the tools that made this project possible.
 
 
 
-\---
+---
 
 
 
-\# ⭐ Support
+# ⭐ Support
 
 
 
@@ -1178,11 +1178,11 @@ If you found this repository helpful:
 
 
 
-\---
+---
 
 
 
-\## 📌 Project Highlights
+## 📌 Project Highlights
 
 
 
@@ -1226,9 +1226,9 @@ If you found this repository helpful:
 
 
 
-\---
+---
 
 
 
-> \*\*This project demonstrates a complete customer segmentation workflow, from data preparation and exploratory analysis to clustering, evaluation, visualization, and business insight generation using modern unsupervised machine learning techniques.\*\*
+> **This project demonstrates a complete customer segmentation workflow, from data preparation and exploratory analysis to clustering, evaluation, visualization, and business insight generation using modern unsupervised machine learning techniques.**
 
