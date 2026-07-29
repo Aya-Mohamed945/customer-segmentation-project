@@ -12,10 +12,7 @@ build/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
-*.ipynb
 
-# Data
-*.xlsx
 
 
 # IDE
@@ -26,10 +23,5 @@ build/
 # OS
 .DS_Store
 Thumbs.db
-
-# Outputs
-results/plots/
-results/reports/
-*.pdf
 
 .vs/
