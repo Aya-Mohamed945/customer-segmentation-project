@@ -1,4 +1,5 @@
 
+# -*- coding: utf-8 -*-
 """
 Module: Data Exploration
 Purpose: Load and explore the dataset
@@ -131,16 +132,9 @@ def plot_correlation_matrix(df, save_path=None):
     plt.show()
 
 if __name__ == "__main__":
-    # Load data
     df = pd.read_csv("../data/segmentation_data.csv")
     df_clean = df.drop('ID', axis=1)
     
-    # Explore data
-    explore_data(df_clean)
-    
-    # Generate visualizations
     plot_categorical_distribution(df_clean, "../results/plots/categorical_distribution.png")
     plot_age_income_distribution(df_clean, "../results/plots/age_income_distribution.png")
     plot_correlation_matrix(df_clean, "../results/plots/correlation_matrix.png")
-    
-    print("\nData exploration completed successfully!")

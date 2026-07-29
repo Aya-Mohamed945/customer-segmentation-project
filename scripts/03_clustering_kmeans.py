@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 """
 Module: K-Means Clustering
 Purpose: Apply K-Means and determine optimal k

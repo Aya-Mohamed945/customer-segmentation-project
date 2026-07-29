@@ -214,40 +214,50 @@ Main analyses included:
 
 ```text
 
-Customer-Segmentation/
-
+customer-segmentation-project/
 │
-
 ├── data/
-
-│   └── segmentation_data.csv
-
+│   └── segmentation_data.csv          # Dataset (2,000 customers)
 │
-
+├── scripts/
+│   ├── 01_data_exploration.py         # EDA and visualizations
+│   ├── 02_data_preprocessing.py       # Standardization & PCA
+│   ├── 03_clustering_kmeans.py        # K-Means implementation
+│   ├── 04_clustering_hierarchical.py  # Hierarchical clustering
+│   ├── 05_clustering_dbscan.py        # DBSCAN implementation
+│   ├── 06_evaluation.py               # Model comparison module
+│   ├── 07_visualization.py            # Results visualization
+│   └── 08_save_reports.py             # Save reports to CSV
+│
+├── results/
+│   ├── plots/                         # Generated visualizations
+│   │   ├── age_income_distribution.png
+│   │   ├── categorical_distribution.png
+│   │   ├── correlation_matrix.png
+│   │   ├── dbscan_k_distance.png
+│   │   ├── dendrogram.png
+│   │   ├── kmeans_clusters.png
+│   │   └── pca_variance.png
+│   └── reports/                       # Generated reports
+│       ├── clustered_data.csv
+│       ├── cluster_profiles.csv
+│       ├── cluster_counts.csv
+│       └── cluster_statistics.csv
+│
+├── docs/
+│   ├── project_report.pdf             # Final project report
+│   ├── methodology.md                 # Technical methodology
+│   ├── results_summary.md             # Results summary
+│   └── business_insights.md           # Business recommendations
+│
 ├── notebooks/
-
-│   └── Customer_Segmentation.ipynb
-
+│   └── clustering_analysis.ipynb      # Jupyter Notebook (optional)
 │
-
-├── images/
-
-│   ├── elbow_method.png
-
-│   ├── silhouette_scores.png
-
-│   ├── cluster_visualization.png
-
-│   └── correlation_heatmap.png
-
-│
-
-├── requirements.txt
-
-├── README.md
-
-└── LICENSE
-
+├── README.md                          # Project overview
+├── requirements.txt                   # Dependencies
+├── .gitignore                         # Git ignore file
+├── run_fixed.py                       # Run all scripts
+└── LICENSE                            # MIT License
 ```
 
 # ⚙️ Installation

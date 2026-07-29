@@ -15,9 +15,8 @@ build/
 *.ipynb
 
 # Data
-*.csv
 *.xlsx
-data/
+
 
 # IDE
 .vscode/
