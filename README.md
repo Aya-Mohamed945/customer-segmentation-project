@@ -220,25 +220,25 @@ Customer-Segmentation/
 
 ├── data/
 
-│   └── segmentation\_data.csv
+│   └── segmentation_data.csv
 
 │
 
 ├── notebooks/
 
-│   └── Customer\_Segmentation.ipynb
+│   └── Customer_Segmentation.ipynb
 
 │
 
 ├── images/
 
-│   ├── elbow\_method.png
+│   ├── elbow_method.png
 
-│   ├── silhouette\_scores.png
+│   ├── silhouette_scores.png
 
-│   ├── cluster\_visualization.png
+│   ├── cluster_visualization.png
 
-│   └── correlation\_heatmap.png
+│   └── correlation_heatmap.png
 
 │
 
