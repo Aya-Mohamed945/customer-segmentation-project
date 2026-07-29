@@ -6,25 +6,25 @@
 
 
 
-[!\[Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
 
-[!\[Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Clustering-orange?logo=scikitlearn)](https://scikit-learn.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Clustering-orange?logo=scikitlearn)](https://scikit-learn.org/)
 
-[!\[Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)](https://pandas.pydata.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)](https://pandas.pydata.org/)
 
-[!\[NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)](https://numpy.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)](https://numpy.org/)
 
-[!\[Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)](https://matplotlib.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)](https://matplotlib.org/)
 
-\[!\[License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-
-
-\---
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
 
-\## 📌 Project Overview
+---
+
+
+
+## 📌 Project Overview
 
 
 
@@ -36,7 +36,7 @@ This project analyzes customer data collected from an FMCG (Fast-Moving Consumer
 
 
 
-\---
+---
 
 
 
