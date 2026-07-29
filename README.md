@@ -538,13 +538,13 @@ images/
 
 │
 
-├── correlation\_heatmap.png
+├── correlation_heatmap.png
 
-├── elbow\_method.png
+├── elbow_method.png
 
-├── silhouette\_scores.png
+├── silhouette_scores.png
 
-└── cluster\_visualization.png
+└── cluster_visualization.png
 
 ```
 
@@ -696,7 +696,7 @@ Open the notebook:
 
 ```
 
-Customer\_Segmentation.ipynb
+Customer_Segmentation.ipynb
 
 ```
 
@@ -892,13 +892,13 @@ images/
 
 │
 
-├── correlation\_heatmap.png
+├── correlation_heatmap.png
 
-├── elbow\_method.png
+├── elbow_method.png
 
-├── silhouette\_scores.png
+├── silhouette_scores.png
 
-└── cluster\_visualization.png
+└── cluster_visualization.png
 
 ```
 
