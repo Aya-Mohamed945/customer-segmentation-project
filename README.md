@@ -290,7 +290,7 @@ venv\\Scripts\\activate
 
 
 
-\### Linux / macOS
+### Linux / macOS
 
 
 
@@ -342,7 +342,7 @@ Open the notebook:
 
 ```
 
-Customer\_Segmentation.ipynb
+Customer_Segmentation.ipynb
 
 ```
 
