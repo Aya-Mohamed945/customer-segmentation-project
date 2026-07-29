@@ -2,7 +2,7 @@
 
 
 
-> \*\*A comprehensive machine learning pipeline for customer segmentation using unsupervised learning techniques.\*\*
+> **A comprehensive machine learning pipeline for customer segmentation using unsupervised learning techniques.**
 
 
 
