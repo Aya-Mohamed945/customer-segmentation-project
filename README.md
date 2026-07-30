@@ -256,7 +256,7 @@ customer-segmentation-project/
 ├── README.md                          # Project overview
 ├── requirements.txt                   # Dependencies
 ├── .gitignore                         # Git ignore file
-├── run_fixed.py                       # Run all scripts
+├── run.py                       	# Run all scripts
 └── LICENSE                            # MIT License
 ```
 
@@ -544,17 +544,15 @@ Example figures:
 
 ```
 
-images/
-
-│
-
-├── correlation_heatmap.png
-
-├── elbow_method.png
-
-├── silhouette_scores.png
-
-└── cluster_visualization.png
+results/
+├── plots/                         # Generated visualizations
+│   ├── age_income_distribution.png
+│   ├── categorical_distribution.png
+│   ├── correlation_matrix.png
+│   ├── dbscan_k_distance.png
+│   ├── dendrogram.png
+│   ├── kmeans_clusters.png
+│   └── pca_variance.png
 
 ```
 
