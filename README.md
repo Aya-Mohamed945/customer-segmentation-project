@@ -556,11 +556,33 @@ results/
 
 ```
 
-
-
 ---
 
+# 📸 Project Gallery
 
+The following visualizations summarize the main analysis and clustering results generated throughout the project.
+
+## Exploratory Data Analysis
+
+| Categorical Distribution | Age & Income Distribution |
+|--------------------------|---------------------------|
+| ![](results/plots/categorical_distribution.png) | ![](results/plots/age_income_distribution.png) |
+
+| Correlation Matrix | PCA Explained Variance |
+|--------------------|------------------------|
+| ![](results/plots/correlation_matrix.png) | ![](results/plots/pca_variance.png) |
+
+## Clustering Results
+
+| K-Means Clusters | Hierarchical Clustering |
+|------------------|-------------------------|
+| ![](results/plots/kmeans_clusters.png) | ![](results/plots/dendrogram.png) |
+
+| DBSCAN k-Distance Graph |
+|-------------------------|
+| ![](results/plots/dbscan_k_distance.png) |
+
+---
 
 # 💼 Business Insights
 
